@@ -13,4 +13,8 @@ git branch NomRama  ------- Crear rama
 git checkout Rama ------ Pasar de rama
 git branch -d qa ------ Eliminar rama
 
+git pull origin Rama
 
+git clone https://github.com/cdgalvis/PrimerClase_GIT.git
+git clone --branch Rama https://github.com/cdgalvis/PrimerClase_GIT.git
+git clone -b Rama https://github.com/cdgalvis/PrimerClase_GIT.git
